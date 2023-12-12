@@ -37,6 +37,6 @@ average_daily_revenue = total_revenue/7
 print(average_daily_revenue)
 
 #Comprehension
-cuts_under_30 = []
+cuts_under_30 = [new_prices[i] for i in range(len(new_prices)-1) if new_prices[i] < 3]
 
 print(cuts_under_30)
